@@ -1,0 +1,218 @@
+:root {
+  --second-font-family: Raleway, sans-serif;
+  --main-font-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-color: #ffffff;
+  --secondary-font-color: #757575;
+  --background-hero: #2f303a;
+  --btn-bgr-color: #188ce8;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --about-us-bgr: #f5f4fa;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: var(--main-font-color);
+}
+
+.navigation-item-selected {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*===header+footer===*/
+
+.logo {
+  font-family: var(--second-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+/*===header===*/
+.upweb {
+  background-color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.logo-part-two {
+  color: var(--main-font-color);
+}
+
+.contacts-list-item {
+  color: var(--secondary-font-color);
+}
+.navigation-item {
+  color: var(--main-font-color);
+}
+.contacts-list-item:hover,
+.contacts-list-item:focus,
+.navigation-item:hover,
+.navigation-item:focus {
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
+}
+
+/*===main index===*/
+
+.hero {
+  background-color: var(--background-hero);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 86;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.modal-btn:focus,
+.modal-btn:hover {
+  background: var(--btn-bgr-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.features-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-item-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+.about-us {
+  background-color: var(--about-us-bgr);
+}
+
+.job-title,
+.about-us-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.members-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.members-item-description {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+/*===footer===*/
+
+.downweb {
+  background-color: var(--background-hero);
+}
+
+.logo-part-three {
+  color: var(--secondary-color);
+}
+
+.address-description {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.adddress-contacts-item {
+  color: var(--contacts-color);
+}
+
+.address-text {
+  color: var(--secondary-color);
+}
+
+/*===portfolio main===*/
+
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--about-us-bgr);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}
+
+.skills-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.skills-item-description {
+  font-size: 16px;
+  line-height: 1, 86;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
