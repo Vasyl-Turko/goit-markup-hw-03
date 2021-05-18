@@ -337,6 +337,8 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--about-us-bgr);
   cursor: pointer;
+}
+.portfolio-buttons-list li:not(:last-child) {
   margin-right: 8px;
 }
 
